@@ -31,6 +31,9 @@ def removeFromShoppingList(item):
     finally:
         showShoppingList()
 
+def copyShoppingList(shoppinglist):
+    print("Einkaufsliste wurde kopiert...")
+
 
 def switchMenu(id):
     if id == 1:

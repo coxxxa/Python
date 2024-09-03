@@ -5,6 +5,8 @@ number = randint(1, 100)
 # inital
 guess = 0
 
+print("Zahlenspiel")
+
 while guess != number:
     try:
         guess = int(input("Rate welche Zahl ich bin "))

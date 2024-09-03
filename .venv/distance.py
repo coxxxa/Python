@@ -1,4 +1,5 @@
 distanceInKm = 5
+print("Enfernungsberechner")
 
 if distanceInKm < 3:
     print("Du kannst zu Fuß gehen!")
